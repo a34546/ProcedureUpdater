@@ -1,0 +1,9 @@
+﻿DELIMITER //
+DROP PROCEDURE IF EXISTS TestProc; 
+CREATE PROCEDURE TestProc()
+BEGIN
+ 
+	  select 1;
+END
+//
+DELIMITER ;
